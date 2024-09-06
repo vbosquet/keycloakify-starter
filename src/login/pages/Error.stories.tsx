@@ -31,11 +31,11 @@ const ErrorPageContent = ({ errorMessage }: { errorMessage: string }) => {
 
     const content = language === "nl" ? {
         title: "Authenticatie Mislukt",
-        message: "We konden uw sessie niet authentiseren. Probeer het later opnieuw.",
+        message: "Wij vinden voor het rijksregisternummer dat je gebruikt geen gegevens terug. Het gaat zowel over je lidmaatschap als over je (eventueel) dossier werkloosheid.",
         linkText: "Terug naar de Mijn ABVV Homepage"
     } : {
         title: "Échec de l'authentification",
-        message: "Nous n'avons pas pu authentifier votre session. Veuillez réessayer plus tard.",
+        message: "Votre numéro de registre national n'est pas connu dans notre base de données. Cela concerne à la fois votre affiliation et votre éventuel dossier chômage. Pour plus d'informations, n'hésitez pas à contacter votre bureau FGTB.",
         linkText: "Retourner à la page d'accueil de My FGTB"
     };
 
